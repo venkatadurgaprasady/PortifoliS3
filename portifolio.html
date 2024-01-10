@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venkat Portfolio</title>
+</head>
+<body>
+    <style>
+        .bullet-points {
+    list-style-type: disc; /* Use disc bullets */
+    padding-left: 20px; /* Adjust the left padding as needed */
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding-bottom: 60px; /* Adjust this value to account for the footer's height */
+}
+
+footer {
+    background-color: #0073e6;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto; /* Push the footer to the bottom */
+}
+    
+ section {
+    margin-bottom: 20px; /* Adjust the value to control the gap between sections */
+}
+body,h1,h2,ul,li{
+    margin: 0;
+    padding: 0;
+}
+h3, p, a {
+    margin: 1;
+    padding: 0;
+}
+
+
+/* Apply some basic styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333; /* Dark text color */
+}
+header {
+    background-color: #0073e6; /* Blue header background */
+    color: #fbfbfb; /* White text color */
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Box shadow effect */
+}
+
+nav ul {
+    list-style: none;
+    background-color: #0073e6; /* Blue navigation background */
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* White navigation link color */
+    transition: color 0.3s; /* Smooth color transition effect */
+}
+
+nav ul li a:hover {
+    color: #ff0000; /* Red highlight on hover */
+}
+
+main {
+    padding: 20px;
+}
+
+.photo {
+    position: absolute; /* Fixed position to keep it in the corner */
+    top: 20px; /* Adjust top position as needed */
+    left: 10px; /* Adjust right position as needed */
+    width: 100px; /* Adjust width as needed */
+    z-index: 999; /* Make sure it's above other elements */
+    border: 2px solid #4577f5; /* Optional border for the photo */
+    border-radius: 50%; /* Make the photo round (optional) */
+}
+
+.photo img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #0073e6; /* Blue footer background */
+    color: #fff; /* White text color */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+/* Add additional styles for your specific sections and elements */
+</style>
+<div class="tophead">
+    <header>
+        <h1><b>Venkata Durga Prasad Yenimireddy</b></h1>
+        <p>MSc in Computer Science| SUNY Binghamton| Full Stack Development</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Work Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Academic Projects</a></li>
+            <li><a href="#honors">Honors & Awards</a></li>
+            <li><a href="#languages">Languages</a></li>
+            <li><a href="#volunteer">Volunteer Experience</a></li>
+        </ul>
+    </nav>
+    <div class="photo">
+        <img src="photo.png" alt="Your Photo">
+    </div>
+</div>
+<div class="main-content">
+    <section id="about">
+        <h2>About Me</h2>
+        <p>     A passionate and profound thinker having 3 years of profesional experience committed to innovation and research. Effective team player with proven expertise in collaborative projects. Actively seeking co-op/internship/full-time roles in full stack development.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li><b>FRONTEND DEVELOPMENT:</b> HTML5, CSS, JavaScript</li>
+            <li><b>BACKEND DEVELOPMENT:</b> J2SE, J2EE, Spring MVC, Spring Boot, Hibernate, REST, Oracle, JSON, XML</li>
+            <li><b>MISCELLANEOUS:</b> Amazon S3, Mockito, Cucumber, Gradle, Maven, JIRA, Jenkins, Splunk, Hubble, Tomcat, Postman, GIT, Agile Methodologies</li>
+            <!-- Add more skills as needed -->
+        </ul>
+    </section>
+
+    <section id="experience">
+        <h2>Work Experience</h2>
+        <div class="job">
+            <h3>Software Engineer</h3>
+            <p><b>HCL TECHNOLOGIES</b></p>
+            <p>(02/2020 - 06/2020)</p>
+        <ul class="bullet-points">
+            <li>Contributed to designated story development, ensuring on-time completion.</li>
+            <li>Designed, validated, and seamlessly integrated REST APIs using Spring Boot and POSTMAN.</li>
+            <li>Played an active role in unit, integration testing, and user acceptance testing.</li>
+            <li>Skillfully addressed and rectified functional issues, optimizing system efficiency.</li>
+            <li>Demonstrated strong product domain knowledge, offering valuable insights for project success.</li>
+        </ul>
+        </div>
+        <div class="job">
+            <h3>Software Engineer Trainee</h3>
+            <p><b>HCL TECHNOLOGIES</b></p>
+            <p>(08/2019 - 01/2020)</p>
+        <ul class="bullet-points">
+            <li>Engineered an organizational ticketing system for diverse ticket management, ensuring seamless assignment to relevant departments.</li>
+            <li>Contributed to a cohesive 3-member team, guided by JIRA ticket assignments, in designing the application's architecture and functionality.</li>
+            <li>Designed responsive webpages (HTML/CSS/JS) for enhanced user experience; engineered Spring Boot API endpoints (Hibernate, JDBC Template, MVC) to ensure seamless data management with integrated Oracle database that reduced ticket resolution time by 40%.</li>
+        </ul>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education">
+            <h3>MSc in Computer Science</h3>
+            <p><b>State University of New York at Binghamton</b></p>
+            <p>08/2022 - Present</p>
+            <p><b>Courses:</b> Design Patterns | Design and Analysis of Computational Algorithms | Software Engineering and Project Management | Computer Security | Relational databases</p>
+        </div>
+        <div class="education">
+            <h3>B.E in Electronics and Communication Engineering</h3>
+            <p><b>Sathyabama Institute of Science and Technology</b></p>
+            <p>07/2015 - 07/2019</p>
+            <p><b>Courses:</b> Engineering Mathematics | Object Oriented Programming | Programming in C</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Academic Projects</h2>
+        <div class="project">
+            <h3>HEALTH CONNECT</h3>
+            <p class="bullet-point">Developed a centralized web application facilitating connections between patients and nearby hospitals.</p>
+            <p class="bullet-point">Crafted responsive webpages using HTML, CSS, and JS, while producing API endpoints through Spring Boot and Hibernate, seamlessly integrating with an Oracle database.</p>
+            <p class="bullet-point">Enables efficient access to hospital data and doctor availability, will results in a reduction in time spent on manual inquiries.</p>
+        </div>
+        <!-- Add more academic projects as needed -->
+    </section>
+
+    <section id="honors">
+        <h2>Honors & Awards</h2>
+        <ul class="bullet-points">
+            <li>Student Assistantship at SUNY Binghamton - 08/2023</li>
+            <li>Rewards & Recognition at HCL - 04/2020</li>
+            <li>Best Innovative Idea at LAMSYS - 04/2017</li>
+        </ul>
+    </section>
+
+    <section id="languages">
+        <h2>Languages</h2>
+        <ul class="bullet-points">
+            <li>English</li>
+            <li>Telugu</li>
+        </ul>
+    </section>
+
+    <section id="volunteer">
+        <h2>Volunteer Experience</h2>
+        <div class="volunteer">
+            <h3>Sathyabama Institute of Science and Technology</h3>
+            <p>07/2015 - 12/2015</p>
+            <p>Student Ambassdor</p>
+            <p class="bullet-point">     Acted as a vital link between students and the institution, resolving issues and enhancing the college experience through effective communication and problem-solving.</p>
+        </div>
+    </section>
+</div>
+<footer>
+    <p>&copy; 2023 Venkata Durga Prasad Yenimireddy</p>
+</footer>  
+</body>
+</html>
